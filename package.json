@@ -1,6 +1,6 @@
 {
   "name": "com.csamek.pixanim",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "PIXAnim",
   "description": "This package is a lightweight and flexible entirely code-based animation system specifically designed for 2D Sprite Sheet-based animation. It does not contain any functionality for skeletal animations in 2D or 3D and the system will overwrite any built-in animation-controlled GameObjects with a PIXAnim Controller script attached.",
   "unity": "2021.3",

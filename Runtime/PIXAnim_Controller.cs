@@ -43,7 +43,7 @@ public class PIXAnim_Controller : MonoBehaviour
             playing = false;
             return;
         }
-        if (currentFrame > currentAnimation.Frames.Count)
+        if (currentFrame > 0)
         {
             UpdateFrame();
             return;
