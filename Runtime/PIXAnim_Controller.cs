@@ -92,12 +92,13 @@ public class PIXAnim_Controller : MonoBehaviour
         {
             SetAnimation(index, frameToStart);
             reversing = playReverse;
-            
+            looping = loop;
         }
         else if (currentAnimation.Name != animations[index].Name)
         {
             SetAnimation(index, frameToStart);
             reversing = playReverse;
+            looping = loop;
         }
 
     }
