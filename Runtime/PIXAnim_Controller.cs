@@ -32,33 +32,29 @@ public class PIXAnim_Controller : MonoBehaviour
             if (currentFrame < currentAnimation.Frames.Count)
             {
                 UpdateFrame();
+                return;
             }
             if (looping)
             {
                 currentFrame = 0;
                 UpdateFrame();
+                return;
             }
-            else
-            {
-                playing = false;
-            }
+            playing = false;
+            return;
         }
-        else
+        if (currentFrame > currentAnimation.Frames.Count)
         {
-            if (currentFrame > currentAnimation.Frames.Count)
-            {
-                UpdateFrame();
-            }
-            if (looping)
-            {
-                currentFrame = currentAnimation.Frames.Count - 1;
-                UpdateFrame();
-            }
-            else
-            {
-                playing = false;
-            }
+            UpdateFrame();
+            return;
         }
+        if (looping)
+        {
+            currentFrame = currentAnimation.Frames.Count - 1;
+            UpdateFrame();
+            return;
+        }
+        playing = false;
     }
 
     private void UpdateFrame()
