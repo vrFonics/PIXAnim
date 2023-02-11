@@ -1,0 +1,14 @@
+{
+  "name": "com.csamek.pixanim",
+  "version": "1.0.0",
+  "displayName": "PIXAnim",
+  "description": "This package is a lightweight and flexible entirely code-based animation system specifically designed for 2D Sprite Sheet-based animation. It does not contain any functionality for skeletal animations in 2D or 3D and the system will overwrite any built-in animation-controlled GameObjects with a PIXAnim Controller script attached.",
+  "unity": "2021.3",
+  "unityRelease": "0b5",
+  "author": {
+    "name": "Caleb Samek",
+    "email": "calebsamek@gmail.com",
+    "url": "https://www.calebsamek.com"
+  },
+  "type": "tool"
+}
